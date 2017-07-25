@@ -1,0 +1,22 @@
+{
+  "Records": [
+    {
+      "EventSource": "aws:sns",
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:eu-west-1:226475284860:usi-email-received:56355ca5-d73f-4d1c-8065-a76dd228b09c",
+      "Sns": {
+        "Type": "Notification",
+        "MessageId": "1f044bfd-9865-55c0-a80a-1a17004de9c0",
+        "TopicArn": "arn:aws:sns:eu-west-1:226475284860:usi-email-received",
+        "Subject": null,
+        "Message": "{\"id\":\"adnl0ucivubh5ukuf8t4hsssjtv1vjud9uq286g1\",\"source\":\"daniel.vaughan@gmail.com\",\"type\":\"usi-new-submission\",\"subject\":\"\",\"people\":[]}",
+        "Timestamp": "2017-07-20T11:37:12.847Z",
+        "SignatureVersion": "1",
+        "Signature": "X+p+LPKEanE+1TgnH0g2x+LXAiIpHMcC1f8JUtPtLu2dkizgdUlvINTRU12/KH4TTjk08klLyJdQjgdgPKnBoDRsRICKdj3JzAO2YErxmTJMa3ZVVlz0xZYyOvZkEStx27MYgmFYJA8XK7FCY7MtXZWoVdfeoEZPI9pHUA94djjAUQPOqjw3fU9tRjFUY/dAyfxpuqg1m0ZBqWZSbQIUhDXFtkp9kQkrIsrmEUOfUFYx2WOmWOMwAsjpv1JFkGrELj7P1QQ/gtAXr9qvxOaP9YJZXHZsA5hlmhOm37onQ31gXv9uzta7oxd97L4gEh3eb36/08nJEhMLjkWkb5WkaA==",
+        "SigningCertUrl": "https://sns.eu-west-1.amazonaws.com/SimpleNotificationService-b95095beb82e8f6a046b3aafc7f4149a.pem",
+        "UnsubscribeUrl": "https://sns.eu-west-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:eu-west-1:226475284860:usi-email-received:56355ca5-d73f-4d1c-8065-a76dd228b09c",
+        "MessageAttributes": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "usi-receive-email",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "setup": "node-lambda setup",
+    "run": "node-lambda run",
+    "deploy": "node-lambda deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "latest",
+    "node-lambda": "^0.8.1",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}

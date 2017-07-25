@@ -1,0 +1,133 @@
+{
+  "Records": [
+    {
+      "eventSource": "aws:ses",
+      "eventVersion": "1.0",
+      "ses": {
+        "mail": {
+          "timestamp": "2017-07-20T11:00:50.895Z",
+          "source": "dvaughan@ebi.ac.uk",
+          "messageId": "c8m93vnbgh6l32ib5hcs2mqk1rnosnhtctmvrgo1",
+          "destination": [
+            "usi-new-submission@skillsmapper.site"
+          ],
+          "headersTruncated": false,
+          "headers": [
+            {
+              "name": "Return-Path",
+              "value": "<dvaughan@ebi.ac.uk>"
+            },
+            {
+              "name": "Received",
+              "value": "from hx-mx1.ebi.ac.uk (mx1.ebi.ac.uk [193.62.195.238]) by inbound-smtp.eu-west-1.amazonaws.com with SMTP id c8m93vnbgh6l32ib5hcs2mqk1rnosnhtctmvrgo1 for usi-new-submission@skillsmapper.site; Thu, 20 Jul 2017 11:00:50 +0000 (UTC)"
+            },
+            {
+              "name": "X-SES-Spam-Verdict",
+              "value": "PASS"
+            },
+            {
+              "name": "X-SES-Virus-Verdict",
+              "value": "PASS"
+            },
+            {
+              "name": "Received-SPF",
+              "value": "pass (spfCheck: domain of ebi.ac.uk designates 193.62.195.238 as permitted sender) client-ip=193.62.195.238; envelope-from=dvaughan@ebi.ac.uk; helo=mx1.ebi.ac.uk;"
+            },
+            {
+              "name": "Authentication-Results",
+              "value": "amazonses.com; spf=pass (spfCheck: domain of ebi.ac.uk designates 193.62.195.238 as permitted sender) client-ip=193.62.195.238; envelope-from=dvaughan@ebi.ac.uk; helo=mx1.ebi.ac.uk; dkim=fail header.i=@ebi.ac.uk;"
+            },
+            {
+              "name": "X-SES-RECEIPT",
+              "value": "AEFBQUFBQUFBQUFFVDVkcG1QZ3VDeUtWeFV6bm9GL21PaW53aEJxeFZRMHVYUVowaWMvd3J0akZTWjNJdmdFTzVqUVZub2dzeUtrclM2ZUlUbXV3WUZxbUJhcDZBYm8wQUF5cTlkeVprbzhocHhSeURYQzFDdjBqTTdtLzJSQWRsT0I2eVBUeVM5US9QV1Bab28wS1BiMkpxMDhjU0RPVWpBV2VITHp1RTdUMnkxamVNMjFKL1JxZ0xTaDAreFF6WHFnWkl4WHlweHZSUVVraWRwdWxqcTIwOG1mSE8wSHIvaFA0OVpmVTRuQXRYZi9PRjdBbE5VZHNkMy9ZQUtNcXQ4M0NWallwRzhiSGhFYzVoa1lyT3daS0RtOFp0TW5SQw=="
+            },
+            {
+              "name": "X-SES-DKIM-SIGNATURE",
+              "value": "v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; s=shh3fegwg5fppqsuzphvschd53n6ihuv; d=amazonses.com; t=1500548451; h=X-SES-RECEIPT:MIME-Version:Date:From:To:Subject:Message-ID; bh=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN/XKdLCPjaYaY=; b=UUNq2P6mEIa9/18lMTL2YRWn8YSsIxdGKkjHQktomKiyyltjjknuZ47HKigdRJi6 Lp9QfpRsexLKF6ZNrrI8vtIWFTp+ejJNgDMu0cEN62GDUR8JH3m5m/WDiKhkdxJ3AvQ hsUePeQ0QJlalKL+fwr2+QNMwso2qxKLg/Q1qbPY="
+            },
+            {
+              "name": "Received",
+              "value": "from hx-mx1.ebi.ac.uk (localhost.localdomain [127.0.0.1]) by localhost (Email Security Appliance) with SMTP id 1122122D7BB_9708D62B for <usi-new-submission@skillsmapper.site>; Thu, 20 Jul 2017 11:00:50 +0000 (GMT)"
+            },
+            {
+              "name": "Received",
+              "value": "from webmail.ebi.ac.uk (webmail-01.ebi.ac.uk [10.7.71.20]) (using TLSv1 with cipher ECDHE-RSA-AES256-SHA (256/256 bits)) (Client did not present a certificate) by hx-mx1.ebi.ac.uk (Sophos Email Appliance) with ESMTPSA id DE89C22CED9_9708D61F for <usi-new-submission@skillsmapper.site>; Thu, 20 Jul 2017 11:00:49 +0000 (GMT)"
+            },
+            {
+              "name": "MIME-Version",
+              "value": "1.0"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 20 Jul 2017 12:00:49 +0100"
+            },
+            {
+              "name": "From",
+              "value": "dvaughan <dvaughan@ebi.ac.uk>"
+            },
+            {
+              "name": "To",
+              "value": "usi-new-submission@skillsmapper.site"
+            },
+            {
+              "name": "Subject",
+              "value": "test"
+            },
+            {
+              "name": "Message-ID",
+              "value": "<a44f6b7afde70d2715a5a162f75b6c05@imap.ebi.ac.uk>"
+            },
+            {
+              "name": "X-Sender",
+              "value": "dvaughan@ebi.ac.uk"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Roundcube Webmail/1.1.9"
+            },
+            {
+              "name": "DKIM-Signature",
+              "value": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=ebi.ac.uk; h=mime-version:date:from:to:subject:message-id; s=ebi.ac.uk; bh=47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=; b=qjJezR9yHRJFg8Hqd51PV14poPrR+L62bFhKfrNUixCnq1h1xy/y5ynv76AV5FbgFEM0bHmevtiEHJIn/so0JE4x7UUK3pyhfIG/ZqZHTBXKZdhq/PM7Cq71YLxaZ1P1duhfQP/E2RL+buX8dFS7C/TEZL9DEU06IgL7CXnKQZb1Uk0jhvz/ml2+AA77cXr4t6B20uvozX07VXDMH6xAuz9Gz7JVHx0KkLGQB8rukhxSH8NmKMzAle4BXTMeJuN71UOGh8VmJ6UR/1OJ2iPRTkGJRYRXXwLsApyhcBaKiZUwhZDkfEEU8PPs4CDgv1gU2hM5Iks6UEjk4P5pKXPYUg=="
+            }
+          ],
+          "commonHeaders": {
+            "returnPath": "dvaughan@ebi.ac.uk",
+            "from": [
+              "dvaughan <dvaughan@ebi.ac.uk>"
+            ],
+            "date": "Thu, 20 Jul 2017 12:00:49 +0100",
+            "to": [
+              "usi-new-submission@skillsmapper.site"
+            ],
+            "messageId": "<a44f6b7afde70d2715a5a162f75b6c05@imap.ebi.ac.uk>",
+            "subject": "test"
+          }
+        },
+        "receipt": {
+          "timestamp": "2017-07-20T11:00:50.895Z",
+          "processingTimeMillis": 525,
+          "recipients": [
+            "usi-new-submission@skillsmapper.site"
+          ],
+          "spamVerdict": {
+            "status": "PASS"
+          },
+          "virusVerdict": {
+            "status": "PASS"
+          },
+          "spfVerdict": {
+            "status": "PASS"
+          },
+          "dkimVerdict": {
+            "status": "FAIL"
+          },
+          "action": {
+            "type": "Lambda",
+            "functionArn": "arn:aws:lambda:eu-west-1:226475284860:function:usi-receive-email-development",
+            "invocationType": "Event"
+          }
+        }
+      }
+    }
+  ]
+}

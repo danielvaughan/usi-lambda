@@ -1,0 +1,22 @@
+{
+  "Records": [
+    {
+      "EventSource": "aws:sns",
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:eu-west-1:226475284860:usi-submission-requested:d45271f2-a970-4ac7-bb6f-a06bbfb0c1aa",
+      "Sns": {
+        "Type": "Notification",
+        "MessageId": "b784223f-74d4-50ad-bff5-73d5e28952f2",
+        "TopicArn": "arn:aws:sns:eu-west-1:226475284860:usi-submission-requested",
+        "Subject": null,
+        "Message": "{\"email\":\"dvaughan@ebi.ac.uk\",\"team\":\"test\"}",
+        "Timestamp": "2017-07-20T11:29:33.672Z",
+        "SignatureVersion": "1",
+        "Signature": "NgU2yc+ZPCTNsxCAf0ndKOzVg/Ej5Dn9LBvHRDlT9Vfdud4mT9/eCwTbm4z32rRNImR1IypjbofjomIMlMKxaf+4LHapZvfF/ktl5G4AN02Nm9q3PX3QAQfIAA0r8U29vDUmc9gQQ4+8kQeaxj7RWZoFvtvhsVQz8DUhShJXasppC9JJUzakTIASaEPbRsF1UqhL8m0qSSh2N9fVERAMxX6BloPZ6fOpF1gruN7Mry77R7qCD84PdFeqz1LjwWHHdC2fhtAwaYN4JPHuExXvqUZI+tbMTY5HpnErhZuj1PLVGXvJvfuVy5u7ciMSZNJNmhoBHoG03CCyVjWiEE4PLA==",
+        "SigningCertUrl": "https://sns.eu-west-1.amazonaws.com/SimpleNotificationService-b95095beb82e8f6a046b3aafc7f4149a.pem",
+        "UnsubscribeUrl": "https://sns.eu-west-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:eu-west-1:226475284860:usi-submission-requested:d45271f2-a970-4ac7-bb6f-a06bbfb0c1aa",
+        "MessageAttributes": {}
+      }
+    }
+  ]
+}
